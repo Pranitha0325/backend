@@ -9,10 +9,8 @@ const saltRounds = 10;
 
 const user = require("../models/userSchema");
 
-
-// Middleware function for handling GET request to /users
 router.get('/login/:email', async (req, res) => {
-    // Logic to handle GET request to /users
+   
     
     console.log("getalltasks", req.params.email)
     try {
